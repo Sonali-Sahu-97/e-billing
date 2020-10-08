@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="project.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 182px;
+            font-family:'Courier New';
+            font-weight:700;
+            font-size:70px;
+            background-image:url('elec.jpg');
+            background-size:100%; 
+            color:honeydew;
+            width: 100%;
+        }
+    </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <marquee class="auto-style1">E-BILLING</marquee>
+            
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <p>
+            &nbsp;</p>
+    </form>
+</body>
+</html>
